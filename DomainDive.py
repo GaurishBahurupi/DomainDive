@@ -47,7 +47,7 @@ class SubdomainFinder:
 
 def main():
     domain = input("Enter the domain to find subdomains: ")
-    subdomains_file = "/Users/gaurishbahurupi/Downloads/subdomains-top1mil-20000.txt"  # Specify the path here
+    subdomains_file = "{path of subdomain_wordlist.txt}"  # Specify the path here
     finder = SubdomainFinder(domain, subdomains_file)
     finder.discover_subdomains()
 
